@@ -1,3 +1,3 @@
-## This is my website
+## My website
 
-### This is the content of my website 
+### This is an attempt to make my portfolio website 
