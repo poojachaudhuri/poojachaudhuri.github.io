@@ -14,11 +14,6 @@
 
     }
 
-    .hero {
-      color: #333333;
-      font-family: Palatino
-    }
-
     .link {
       color: #333333;
       font-family: Palatino;
@@ -29,21 +24,21 @@
       font-family: Palatino;
     }
 
-    .journalism {
-      color: #333333;
-      font-family: Palatino;
+    .column {
+      transition: transform 0.3s;
     }
 
-    .contact {
-      color: Red;
+    .column:hover {
+      transform: translateY(-20px);
+      box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.207);
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Introductory paragraph -->
-  <div class="big-containner">
+  <!-- Intro -->
+  <div class="containner is-fluid">
     <div class="landing-wrapper center-ele">
       <div class="landing">
         <div class="name-wrapper mt-6">
@@ -81,7 +76,7 @@
 
         <!-- Social media links -->
         <div class="contact-info">
-          <div class="mx-auto" style="width: 1200px; margin: 0 30px;">
+          <div class="mx-auto" style="width: 1220px; margin: 0 30px;">
             <a href="mailto:pc3034@columbia.edu" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             <a href="https://twitter.com/pooja_chaudhuri" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             <a href="https://www.linkedin.com/in/pooja-chaudhuri-43b416166/" target="_blank"><i
@@ -95,61 +90,177 @@
 
   <!-- Work -->
   <section class="section">
-    <div class="journalism">
-      <div class="subtitle">
+
+    <div class="columns is-multiline content mr-6 ml-6 mt-3">
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.thehindu.com/opinion/op-ed/misinformation-through-a-feminist-lens/article35824916.ece"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="hindu.jpeg">
+            </figure>
+            <span class="tag is-light">The Hindu</span><br><br>
+            Misinformation through a feminist lens
+        </h4>
+        <p class="card-text"><small class="text-muted">10 Aug 2021</small></p>
       </div>
 
-      <div class="columns is-multiline content m-6 is-mobile">
-
-          <div class="column is-one-fourth">
-            <h4>
-              <a class="link"
-                href="https://www.thehindu.com/opinion/op-ed/misinformation-through-a-feminist-lens/article35824916.ece"
-                aria-label="Read the article" target="_blank">
-                <figure class="image is-4by3 mb-3">
-                  <img alt="There is supposed to be an image here" src="hindu.jpeg">
-                </figure>
-                <span class="tag is-light">The Hindu</span><br><br>
-                Misinformation through a feminist lens
-            </h4>
-            <p class="card-text"><small class="text-muted">10 Aug 2021</small></p>
-          </div>
-
-          <div class="column is-one-fourth">
-            <h4>
-              <a class="link"
-                href="https://www.altnews.in/facebook-purge-the-curious-case-of-pages-that-did-not-feature-in-fb-press-release/"
-                aria-label="Read the article" target="_blank">
-                <figure class="image is-4by3 mb-3">
-                  <img alt="There is supposed to be an image here" src="altnews_purge.png">
-                </figure>
-                <span class="tag is-light">Alt News</span><br><br>
-                Facebook purge: The curious case of pages that did not feature
-                  in FB
-                  press release
-            </h4>
-            <p class="card-text"><small class="text-muted">6 April 2019</small></p>
-          </div>
-
-          <div class="column is-one-fourth">
-            <h4>
-              <a class="link"
-                href="https://www.altnews.in/congress-members-tweet-video-of-tourists-on-chinese-side-of-pangong-tso-as-indian-side/"
-                aria-label="Read the article" target="_blank">
-                <figure class="image is-4by3 mb-3">
-                  <img alt="There is supposed to be an image here" src="pangong.webp">
-                </figure>
-                <span class="tag is-light">Alt News</span><br><br>
-                Congress members tweet video of tourists on Chinese side of Pangong
-                      Tso as
-                      Indian side
-            </h4>
-            <p class="card-text"><small class="text-muted">11 Sep 2020</small></p>
-          </div>
-
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/congress-members-tweet-video-of-tourists-on-chinese-side-of-pangong-tso-as-indian-side/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="pangong.webp">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            Congress members tweet video of tourists on Chinese side of Pangong
+            Tso as
+            Indian side
+        </h4>
+        <p class="card-text"><small class="text-muted">11 Sep 2020</small></p>
       </div>
-    </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://scroll.in/article/1009803/how-twitters-policy-on-porn-has-been-used-to-harass-indian-muslim-women"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="scroll.jpg">
+            </figure>
+            <span class="tag is-light">Scroll.in</span><br><br>
+            How Twitter's liberal policy on porn allows Indian Muslim women to
+            be
+            harassed
+        </h4>
+        <p class="card-text"><small class="text-muted">5 Nov 2021</small></p>
+      </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/sulli-deals-organised-attempt-to-blame-a-muslim-youth-for-the-app/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="sulli_deals.png">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            Sulli Deals: Organised attempt to blame a Muslim youth for the
+            app
+        </h4>
+        <p class="card-text"><small class="text-muted">15 Nov 2021</small></p>
+      </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/india-today-group-times-now-air-old-images-of-pla-cemetery-as-graves-of-chinese-killed-in-galwan/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="altnews_plagraves.webp">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            India Today Group, Times Now air old images of PLA cemetery as
+            graves
+            of Chinese
+            killed in Galwan
+        </h4>
+        <p class="card-text"><small class="text-muted">1 Sep 2020</small></p>
+      </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/ad-agency-with-bjp-connection-handles-social-media-for-maharashtra-election-commission/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="devang_signpost.png">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            Ad agency with BJP connection handles social media for Maharashtra
+            Election
+            Commission
+            Data India
+        </h4>
+        <p class="card-text"><small class="text-muted">24 July 2020</small></p>
+      </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/facebook-purge-the-curious-case-of-pages-that-did-not-feature-in-fb-press-release/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="altnews_purge.png">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            Facebook purge: The curious case of pages that did not feature
+            in FB
+            press release
+        </h4>
+        <p class="card-text"><small class="text-muted">6 April 2019</small></p>
+      </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/who-runs-kreately-alt-news-investigates-the-factory-of-hate-and-misinformation/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="kreately_kapil_mishra.png">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            Who runs Kreately? – Alt News investigates the factory of hate and
+            misinformation
+        </h4>
+        <p class="card-text"><small class="text-muted">24 July 2020</small></p>
+      </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/republic-bharat-noor-mohammad-dead-coronavirus-madhya-pradesh-khargone/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="republic.webp">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            ead man alive: Republic’s coverage of a coronavirus patient from
+            MP
+            gets
+            several facts wrong
+        </h4>
+        <p class="card-text"><small class="text-muted">14 April 2020</small></p>
+      </div>
+
+      <div class="column is-one-third">
+        <h4>
+          <a class="link"
+            href="https://www.altnews.in/fact-check-tv9s-exclusive-report-on-a-secret-underground-tunnel-in-nizamuddin-markaz/"
+            aria-label="Read the article" target="_blank">
+            <figure class="image is-1200x628 mb-2">
+              <img alt="There is supposed to be an image here" src="tv9.webp">
+            </figure>
+            <span class="tag is-light">Alt News</span><br><br>
+            Fact-check: TV9’s exclusive report on a ‘secret underground tunnel’
+            in
+            Nizamuddin Marka
+        </h4>
+        <p class="card-text"><small class="text-muted">2 May 2020</small></p>
+      </div>
+
   </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        © 2023 – Pooja Chaudhuri
+      </p>
+    </div>
+  </footer>
 
 </html>
 <div
