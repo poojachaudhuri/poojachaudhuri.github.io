@@ -1,0 +1,16 @@
+{	
+	"fonts": [
+        {
+            "aifont": "Arial",
+            "family": "Arial",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "Arial",
+            "family": "Arial",
+            "weight": "200",
+            "style": ""
+        },
+    ]
+}

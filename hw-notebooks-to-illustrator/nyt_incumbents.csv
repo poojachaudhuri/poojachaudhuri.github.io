@@ -1,0 +1,9 @@
+cook_pvi,pct_defeated,pct_survived
+C+7 or greater,76,24
+C+3 to C+7,63,37
+C+1 to C+3,61,39
+I+1 to C+1,35,65
+I+1 to I+3,25,75
+I+3 to I+5,18,82
+I+5 to I+10,7,93
+I+10 or greater,0,100
