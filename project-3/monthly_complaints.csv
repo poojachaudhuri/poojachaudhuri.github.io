@@ -1,0 +1,92 @@
+month,descriptor,count
+01,Farm Animal,32
+01,Ferret,7
+01,Iguana,3
+01,Monkey,5
+01,Other,53
+01,Rooster,102
+01,Snake,11
+02,Farm Animal,22
+02,Ferret,7
+02,Iguana,2
+02,Monkey,4
+02,Other,41
+02,Rooster,68
+02,Snake,17
+02,Turtle Under 4 inches Long,1
+03,Farm Animal,36
+03,Ferret,6
+03,Iguana,2
+03,Monkey,2
+03,Other,65
+03,Rooster,164
+03,Snake,14
+03,Turtle Under 4 inches Long,1
+04,Farm Animal,47
+04,Ferret,5
+04,Iguana,1
+04,Other,68
+04,Rooster,201
+04,Snake,22
+04,Turtle Under 4 inches Long,1
+05,Farm Animal,69
+05,Ferret,10
+05,Iguana,4
+05,Monkey,3
+05,Other,92
+05,Rooster,210
+05,Snake,29
+05,Turtle Under 4 inches Long,1
+06,Farm Animal,70
+06,Ferret,13
+06,Iguana,5
+06,Monkey,3
+06,Other,126
+06,Rooster,213
+06,Snake,36
+06,Turtle Under 4 inches Long,2
+07,Farm Animal,46
+07,Ferret,6
+07,Iguana,5
+07,Monkey,5
+07,Other,117
+07,Rooster,179
+07,Snake,28
+08,Farm Animal,63
+08,Ferret,4
+08,Iguana,5
+08,Monkey,7
+08,Other,120
+08,Rooster,200
+08,Snake,34
+08,Turtle Under 4 inches Long,4
+09,Farm Animal,86
+09,Ferret,3
+09,Iguana,3
+09,Monkey,4
+09,Other,91
+09,Rooster,257
+09,Snake,31
+09,Turtle Under 4 inches Long,1
+10,Farm Animal,46
+10,Ferret,6
+10,Iguana,1
+10,Monkey,5
+10,Other,68
+10,Rooster,168
+10,Snake,22
+11,Farm Animal,48
+11,Ferret,6
+11,Iguana,3
+11,Monkey,6
+11,Other,52
+11,Rooster,124
+11,Snake,18
+11,Turtle Under 4 inches Long,3
+12,Farm Animal,34
+12,Ferret,5
+12,Monkey,4
+12,Other,49
+12,Rooster,108
+12,Snake,16
+12,Turtle Under 4 inches Long,1
